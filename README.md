@@ -35,7 +35,7 @@ module "network-hub" {
     ptp_vpn_ike_encryption      = "AES256"
     ptp_vpn_ike_integrity       = "SHA256"
     ptp_vpn_dh_group            = "DHGroup2"
-    ptp_vpn_ipsec_encryption    = "AES256"
+    ptp_vpn_ipsec_encryption    = "GCMAES256"
     ptp_vpn_ipsec_integrity     = "GCMAES256"
     ptp_vpn_pfs_group           = "PFS2"
     ptp_vpn_sa_lifetime         = "3600"
